@@ -11,6 +11,7 @@ page = BaiduPage(dr)
 page.get("https://www.baidu.com")
 page.search_box.send_keys("helel")
 page.search_button.click()
+dr.close()
 
 
 
